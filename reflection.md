@@ -23,3 +23,4 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+Class on 10/5 helped me understand the ETL process. Extracting data from the csv file, then transforming the data can be read properly by merging tables and cleaning the data lastly the file is loaded into an S3 bucket. The bucket creation of the process was foreign to me, but after looking up the Boto3 library I found thata it deserialises responses into a python class. Therefore, it made uploading the file into an AWS S3 bucket.
